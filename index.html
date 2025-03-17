@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TWICE Fan Page | </title>
+    <title>TWICE Fan Page | Home</title>
+    <link rel="icon" href="./assets/twice-logo.svg" type="image/svg+xml">
 
     <link rel="stylesheet" href="./style.css">
 
@@ -15,15 +16,14 @@
 <body>
     <div class="main-body">
         <div class="mega-menu transparent" id="mymenu">
-            <img class="logo" src="./pictures/twice-logo.svg" alt="Web Logo" />
-
+            <img class="logo" src="./assets/twice-logo.svg" alt="Web Logo" />
 
             <input type="checkbox" id="menu-toggle" hidden />
             <div class="menu-links">
-                <a href="./index.html">Home</a>
+                <a href="./index.html" class="active">Home</a>
                 <a href="./blogs.html">Blogs</a>
                 <a href="./contacts.html">Contacts</a>
-                <a href="./about-us.html" class="active">About Us</a>
+                <a href="./about-us.html">About Us</a>
             </div>
 
             <label for="menu-toggle" class="menu-icon">
@@ -36,8 +36,8 @@
 
             <h1 class="hp-title">TWICE 3rd Japanese Album "Perfect World"</h1>
             <p class="hp-desc">
-                Perfect World is TWICE’s third Japanese album, released on July 28, 2021, showcasing a
-                bold, mature sound and topping Japan’s charts.
+                Perfect World is TWICE's third Japanese album, released on July 28, 2021, showcasing a
+                bold, mature sound and topping Japan's charts.
             </p>
 
             <div class="hp-desc-2">Available now on:</div>
@@ -47,7 +47,7 @@
                 <iconify-icon icon="mdi:spotify"></iconify-icon>
                 <iconify-icon icon="lineicons:apple-music"></iconify-icon>
             </div>
-            <a href="#" class="cta">Discover</a>
+            <a class="cta" href="https://news.nate.com/view/20210730n07790" target="_blank">Discover</a>
         </div>
 
         <!--Announcement-->
@@ -55,69 +55,97 @@
             <h2 class="">Announcement</h2>
 
             <div class="announcements">
-                <div class="col-1">
-                    <img src="./pictures/twicehshs.jpg" alt="Perfect World Album" class="announcement-img" />
-                </div>
-                <div class="col-2">
-                    <h3 class="announcement-title">TWICE 3rd Japanese Album "Perfect World" is Out Now!</h3>
-                    <h3 class="announcement-date">
-                        <iconify-icon icon="mdi:calendar" inline></iconify-icon>
-                        <span>July 28, 2021</span>
-                    </h3>
-                    <p><b>TWICE</b>, one of the biggest girl groups in K-pop, solidified their dominance in the
-                        Japanese
-                        music
-                        scene with the release of <b>Perfect World</b>, their third full-length Japanese studio
-                        album.
-                        Released
-                        on <i><b>July 28, 2021</b></i>, the album showcases a more refined, mature, and powerful
-                        side of
-                        TWICE,
-                        departing from their usual bright and bubbly concepts. Instead, <i>Perfect World</i>
-                        embraces
-                        <b>bold
-                            confidence, emotional depth, and a mix of dynamic genres</b>, making it one of TWICE’s
-                        most
-                        sonically diverse Japanese albums.
-                        <br>
-                    <p> <b>Perfect World</b> was a major success in Japan, topping several charts and further
-                        establishing
-                        TWICE’s presence in the Japanese music industry. The album debuted at <b>No. 1 on the Oricon
-                            Albums Chart</b> and performed well on Billboard Japan. Fans and critics praised TWICE
-                        for
-                        their <b>vocal growth, bold concept, and diverse musical styles.</b>
-                    </p>
+                <div class="announcement">
+                    <img src="./assets/images/twice-perfect-world-gold.jpg" alt="Perfect World Album"
+                        class="announcement-img" />
+                    <div class="announcement-content">
+                        <h3 class="announcement-title">TWICE 3rd Japanese Album "Perfect World" is Out Now!</h3>
+                        <h3 class="announcement-date">
+                            <iconify-icon icon="mdi:calendar" inline></iconify-icon>
+                            <span>July 28, 2021</span>
+                        </h3>
+                        <p class="announcement-desc">
+                            <b>TWICE</b>, one of the biggest girl groups in K-pop, solidified their dominance in the
+                            Japanese music scene with the release of <b>Perfect World</b>, their third full-length
+                            Japanese
+                            studio album. Released on <i><b>July 28, 2021</b></i>, the album showcases a more refined,
+                            mature, and powerful side of TWICE, departing from their usual bright and bubbly concepts.
+                            Instead, <i>Perfect World</i> embraces
+                            <b>bold confidence, emotional depth, and a mix of dynamic genres</b>,
+                            making it one of TWICE's most sonically diverse Japanese albums.
+                            <br> <br>
+                            <b>Perfect World</b> was a major success in Japan, topping several charts and further
+                            establishing TWICE's presence in the Japanese music industry. The album debuted at
+                            <b>No. 1 on the Oricon Albums Chart</b> and performed well on Billboard Japan. Fans and
+                            critics
+                            praised TWICE for their <b>vocal growth, bold concept, and diverse musical styles.</b>
+                        </p>
+                    </div>
                 </div>
             </div>
             <!--Love You bebe <3-->
         </div>
-    </div>
 
-    <div class="footer">
-        <img src="./pictures/logo-large.svg" alt="Twice Logo" class="footer-img">
+        <div class="secondary-banner">
+            <video src="./assets/mv.mp4" loop muted autoplay playsinline> </video>
+            <div class="banner-content">
+                <h2>Watch the Music Video</h2>
 
-        <a href="https://www.jype.com/" target="_blank">
-            <img src="./pictures/jyp.svg" alt="JYP Entertainment" width="200" class="footer-img-jyp">
-        </a>
-        <div class="social-media">
-            <a href="https://fb.me/JYPETWICE" target="_blank">
-                <iconify-icon icon="mdi:facebook"></iconify-icon>
-            </a>
-            <a href="https://www.instagram.com/twicetagram" target="_blank">
-                <iconify-icon icon="mdi:instagram"></iconify-icon>
-            </a>
-            <a href="https://youtube.com/@TWICE" target="_blank">
-                <iconify-icon icon="mdi:youtube"></iconify-icon>
-            </a>
-            <a href="https://x.com/jypetwice" target="_blank">
-                <iconify-icon icon="ri:twitter-x-line"></iconify-icon>
-            </a>
+                <p>
+                    Witness TWICE's mesmerizing performance in the music video for "Perfect World."
+                    <br>
+
+                    Stream now on Youtube
+                </p>
+
+                <a href="https://youtu.be/fmOEKOjyDxU" target="_blank" class="cta">
+                    <iconify-icon icon="mdi:youtube" width="32" inline></iconify-icon>
+                    Watch Now
+                </a>
+            </div>
         </div>
 
-        <div class="footer-desc">
-            © 2025 JYP Entertainment, All rights reserved.
+
+        <div class="section">
+            <h2>Other Albums</h2>
+            <div class="image-column">
+                <a href="https://youtu.be/woKq2sD8xho" target="_blank" title="Do Not Touch">
+                    <img src="./assets/images/misamo-masterpiece.jpg" alt="Do Not Touch" />
+                </a>
+                <a href="https://youtu.be/Sz_wWzgh-vQ" target="_blank" title="Strategy">
+                    <img src="./assets/images/twice-strategy-album.jpg" alt="Strategy" />
+                </a>
+                <a href="https://youtu.be/-J_w9K6DgRo" target="_blank" title="Misamo - Identity">
+                    <img src="./assets/images/misamo-identity.jpg" alt="Misamo - Identity" />
+                </a>
+            </div>
         </div>
-    </div>
+
+        <footer>
+            <img src="./assets/logo-large.svg" alt="Twice Logo" class="footer-img">
+
+            <a href="https://www.jype.com/" target="_blank">
+                <img src="./assets/jyp.svg" alt="JYP Entertainment" width="200" class="footer-img-jyp">
+            </a>
+            <div class="social-media">
+                <a href="https://fb.me/JYPETWICE" target="_blank">
+                    <iconify-icon icon="mdi:facebook"></iconify-icon>
+                </a>
+                <a href="https://www.instagram.com/twicetagram" target="_blank">
+                    <iconify-icon icon="mdi:instagram"></iconify-icon>
+                </a>
+                <a href="https://youtube.com/@TWICE" target="_blank">
+                    <iconify-icon icon="mdi:youtube"></iconify-icon>
+                </a>
+                <a href="https://x.com/jypetwice" target="_blank">
+                    <iconify-icon icon="ri:twitter-x-line"></iconify-icon>
+                </a>
+            </div>
+
+            <div class="footer-desc">
+                © 2025 JYP Entertainment, All rights reserved.
+            </div>
+        </footer>
 
 </body>
 
