@@ -162,7 +162,7 @@ textarea {
 /* Home Page */
 /* hero banner styling */
 .main-hero {
-  background: url('./assets/twice-cover.webp');
+  background: url('./assets/twice-cover.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -343,7 +343,7 @@ textarea {
   flex-wrap: wrap;
   width: min(1340px, 100%);
   margin: 0 auto;
-  padding-block: 24px;
+  padding: 24px 4px;
 }
 
 .section h2,
@@ -357,7 +357,7 @@ textarea {
   padding: 5% 10%;
   text-align: justify;
   padding-top: max(100px, 5%);
-  background: #300 url('./assets/twice-about-cover.webp');
+  background: #300 url('./assets/twice-about-cover.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -480,7 +480,7 @@ body:has(.member:hover) .member-poses {
 }
 
 iframe {
-  background: url('./assets/map-placeholder.webp');
+  background: url('./assets/map-placeholder.jpg');
   background-size: cover;
   background-position: center;
 }
